@@ -7,6 +7,7 @@ It is a [Buxus CMS](http://www.ui42.sk/cms-buxus.html) client library written in
 
 *Example usage:*
 
+    page_id = 1234
     buxus = Buxus.new.login("yourusername", "yourpassword")
     buxus.create_page(page_id)
     buxus.update_page(page_id, page_title, html) # updates page contents
